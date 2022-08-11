@@ -1,5 +1,8 @@
 You can download git here: http://git-scm.com/downloads 
+
 1. Сврорюємо ssh-key ssh-keygen -t rsa –C “tereshchenko.alexey.n@gmail.com"
+	Privat-key - не чіпаємо 
+	Public-key - вносимо в профілі на GitHub
 2. Вказуємо Імя та пошту 
  git config --global user.name “Alex Tereshchenko“
  git config --global user.email “tereshchenko.alexey.n@gmail.com"
@@ -10,6 +13,18 @@ You can download git here: http://git-scm.com/downloads
  		 tereshchenko.alexey.n@gmail.com
 
 3. Створюємо репозиторій на GitHub
-4. Копіюємо посилання (ssh)  
+4. Копіюємо ssh посилання (git@github.com:A3AT0T/Git-demo.git)  
 5. Клонуємо репозиторій на ПК
-	
+	git clone git@github.com:A3AT0T/Git-demo.git
+6. Переходимо з шляхом в якому створили клон репозиторія  (cd Users/Alex/Desktop/myGO/Git-demo )
+7. Створюємо новий файл тп редагуємо його 
+8. Перевіряємо чи бачить його Git
+	 git status
+9. Додаємо файл в перелік трекових файлі в Git
+	git add filename aбо  git add * - всі файли що не трекаються 
+10. Комітимо всі зміни та додаємо коментар до коміту 
+	git commit -m "first commit"
+11. Переглянути логи 
+	git log
+12.Пушимо файл на GitHub 
+	git push
