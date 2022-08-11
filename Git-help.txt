@@ -28,6 +28,6 @@ You can download git here: http://git-scm.com/downloads
 	git log
 12.Пушимо файл на GitHub 
 	git push
-13.Стягнути г GitHub на ПК
+13.Стягнути з GitHub на ПК
 	git pull 	
 	
