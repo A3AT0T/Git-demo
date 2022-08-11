@@ -1,0 +1,15 @@
+You can download git here: http://git-scm.com/downloads 
+1. Сврорюємо ssh-key ssh-keygen -t rsa –C “tereshchenko.alexey.n@gmail.com"
+2. Вказуємо Імя та пошту 
+ git config --global user.name “Alex Tereshchenko“
+ git config --global user.email “tereshchenko.alexey.n@gmail.com"
+ 	первіряємо:
+ 	 git config --global user.name
+ 		 Alex Tereshchenko
+ 	 git config --global user.email
+ 		 tereshchenko.alexey.n@gmail.com
+
+3. Створюємо репозиторій на GitHub
+4. Копіюємо посилання (ssh)  
+5. Клонуємо репозиторій на ПК
+	
