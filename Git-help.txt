@@ -30,4 +30,6 @@ You can download git here: http://git-scm.com/downloads
 	git push
 13.Стягнути з GitHub на ПК
 	git pull 	
+
+14. Git gui&	
 	
