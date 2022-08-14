@@ -33,4 +33,14 @@ You can download git here: http://git-scm.com/downloads
 14. Графічний інтерфейс Git
 	Git gui&	
 	gitk&
-15.
+15. Відмна змін
+	Working directory
+		git checkout --file.txt   --- Відмінити зміни у файлі 
+		git checkout .			  --- Відмінити зміни у всіх файлах 
+ 		git clean -xdf   		  --- Видалити файли
+ 	Staging area(index)
+ 		git reset --file.txt 
+ 	Local branch 
+ 		git reset HEAD^^ (HEAD~2) --- видалити 2 остані коміти але залишити зміни в файлі  		 
+ 		git reset --hard HEAD^^ (HEAD~2) --- видалили 2 остані коміти разом з змінами в файлі
+ 		git commit --amend -m "new commit name" -- перезаписати коміт. 
